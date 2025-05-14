@@ -17,6 +17,9 @@ class PantallaUno extends StatelessWidget {
       ),
       body: Column(
         children: [
+          SizedBox(
+            height: 10,
+          ),
           Center(
             child: ElevatedButton(
               onPressed: () {
